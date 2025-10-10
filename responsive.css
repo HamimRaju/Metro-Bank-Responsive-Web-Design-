@@ -1,0 +1,241 @@
+@media (max-width:768px) {
+
+.topHeader {
+    flex-direction: column;
+    align-items: center;
+}
+
+ul.rightMenu {
+    justify-content: center;
+}
+
+ul.leftMenu {
+    justify-content: center;
+}
+ul.Login {
+    width: 42%;
+    justify-content: space-between;
+}
+
+.lowerHeader .Login .account_box{
+    padding: 12px 16px;
+}
+ul.Home {
+    display: none;
+}
+section.Hero .container {
+    margin-left: 20px;
+}
+.appointment_button {
+    margin-left: 217px;
+}
+.bakcgroundImage {
+    display: none;
+}
+#allservices .container .fourService {
+    flex-direction: column;
+    height: 900px;
+}
+#allservices .container .fourService .service {
+    height: auto;
+    width: auto;
+    margin-bottom: 47px;
+}
+#allservices .container {
+    width: 100%;
+}
+section#aboutus .container {
+    width: 100%;
+    flex-direction: column;
+}
+section#allservices {
+    margin: 0px 17px;
+}
+section#aboutus .about {
+    height: 1300px;
+    margin-top: 122px;
+    flex-direction: column;
+    justify-content: flex-start;   
+}
+.pictureSection {
+    width: 100%;
+}
+
+.FinancialSection {
+    width: 100%;
+    margin-top: 40px;
+}
+.container {
+    width: 100%;
+}
+
+section#BankServices {
+    width: 100%;
+}
+
+#BankServices .bankservice {
+    justify-content: space-evenly;
+    margin-bottom: 500px;
+}
+
+.serviceBox {
+    margin-right: 0px;
+}
+
+.onlineBanking {
+    margin-top: 100px;
+}
+#emi .emiCalculator {
+    flex-direction: column;
+    box-shadow: none;
+    background: white;
+    margin-top: 550px;
+    height: 900px;
+}
+
+section#emi .container {
+    margin-top: 140px;
+}
+
+.calculator {
+    background: white;
+    margin-top: 126px;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 700px;
+}
+#commercialBank .container .heading{
+    left: 100px;
+}
+#commercialBank .bankInfo .part .icon i {
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+}
+.clt h1 {
+    font-size: 28px;
+    margin-left: 21px;
+}
+.clt h2 {
+    color: rgb(103, 103, 103);
+    margin-top: -10px;
+    font-size: 16px;
+}
+.transc h1 {
+    font-size: 28px;
+    margin-left: 15px;
+}
+.transc h2 {
+    color: rgb(103, 103, 103);
+    margin-top: -10px;
+    font-size: 16px;
+}
+.brnch h1 {
+    font-size: 28px;
+    margin-left: 15px;
+}
+.brnch h2 {
+    color: rgb(103, 103, 103);
+    margin-top: -10px;
+    font-size: 16px;
+}
+section#apps .app {
+    margin-top: 200px;
+
+}
+section#apps .app {
+    margin-top: 200px;
+    flex-direction: column;
+    position: relative;
+}
+
+section#apps .container {
+    height: 1400px;
+}
+
+#apps .app .textPart {
+    position: absolute;
+    top: 650px;
+    max-width: 100%;
+}
+#reviews .userReview{
+    height: 417px;
+}
+.mediaPictures .board img {
+    width: 185px;
+    height: 340px;
+}
+.commentPart .Text {
+    font-size: 10px;
+}
+.redborder .container {
+    flex-direction: column;
+}
+.redborder .headline {
+    margin-left: 52px;
+}
+#Footer{
+    height: 1180px;
+}
+.footerSection {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+.footerLeft{
+    width: 100%;
+}
+.footerMiddle{
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.middleRight{
+    margin-top: 25px;
+}
+.footerRight{
+    width: 93%;
+}
+
+/* Responsive For Mobile */
+#BankServices .bankservice {
+    height: 1800px;
+}
+
+.logo {
+    margin-left: -14px;
+    padding-left: 18px;
+    padding-right: 7px;
+}
+
+.lowerHeader .Login .login_box {
+    padding: 6px 17px;
+}
+
+.lowerHeader .Login .account_box {
+    padding: 8px 17px;
+}
+
+.lowerHeader .Login .account_box a {
+    font-size: 13px;
+}
+
+.Hero .container h1 {
+    font-size: 52px;
+}
+
+.appointment_button {
+    margin-left: 94px;
+}
+
+#allservices .container .fourService {
+    height: 1118px;
+}
+}
