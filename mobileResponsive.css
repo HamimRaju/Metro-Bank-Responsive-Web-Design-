@@ -1,22 +1,19 @@
-@media (max-width: 640px) {
+@media (max-width: 460px) {
   #BankServices .bankservice {
     height: 1200px;
   }
   html {
-    width:100%;
-    overflow-x: hidden;
-  }
-  .container {
-    width:100%;
+    width: 100%;
     margin: 0px;
     padding: 0px;
-    overflow: hidden;
-    border: 2px solid red;
+    border: 1px solid red;
+  }
+  .container {
+    width: 460px;
   }
 .topHeader {
     font-size: 12px;
     padding: 5px;
-    width:100%;
 }
   .lowerHeader .Login .login_box {
     padding: 6px 17px;
@@ -112,9 +109,6 @@
   }
   #emi .emiCalculator {
     height: 600px;
-  }
-  .image img {
-    overflow-x: hidden;
   }
   .image {
     margin-top: 300px;
@@ -236,4 +230,84 @@ li.account_box {
 li.login_box {
     width: 160px;
 }
+.jolchap {
+    display: none;
+}
+
+
+.calculator {
+    width: 100%;
+}
+
+section#emi {
+    width: 100%;
+}
+
+section#emi .container {
+    width: 100%;
+}
+
+#emi .emiCalculator .image img {
+    width: 100%;
+}
+
+section#commercialBank {
+    width: 100%;
+}
+
+.commercialBackground {
+    width: 100%;
+}
+
+.commercialBackground .container {
+    width: 100%;
+}
+
+#commercialBank .container {
+    width: 100%;
+}
+
+section#apps .container {
+    width: 100%;
+}
+
+.imagePart {
+    width: 100%;
+}
+
+#apps .app .imagePart .image1 {
+    width: 100%;
+}
+
+#apps .app .imagePart .image2 {
+    width: 100%;
+}
+
+#apps .app .imagePart .image3 {
+    width: 61%;
+}
+
+#apps .app .imagePart .image4 {
+    width: 18%;
+}
+
+section#reviews .container {
+    width: 100%;
+}
+
+.downLoadapps {
+    display: flex;
+    flex-direction: column;
+}
+
+.redborder .container {
+    width: 100%;
+}
+
+.Subscribe {
+    display: flex;
+    flex-direction: column;
+}
+
+
 }
