@@ -230,7 +230,6 @@ ul.Home li:nth-child(5) .SubMenu {
 .Hero {
   height: 880px;
   width: 100%;
-  background: linear-gradient(#00000047), url(Images/HeroBackground.webp);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
