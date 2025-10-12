@@ -7,9 +7,11 @@
     margin: 0px;
     padding: 0px;
     border: 1px solid red;
+    background-color: cadetblue;
+    box-sizing: border-box;
   }
   .container {
-    width: 460px;
+    width: 100%;
   }
 .topHeader {
     font-size: 12px;
@@ -308,6 +310,37 @@ section#reviews .container {
     display: flex;
     flex-direction: column;
 }
+ul.leftMenu {
+    width: 100%;
+}
 
+ul.rightMenu {
+    width: 100%;
+}
 
+h1 {}
+
+section.Hero .container h1 {
+    text-align: left;
+    font-size: 20px;
+}
+
+p.description {
+    width: 100%;
+}
+
+section.Hero .container {
+    width: 73%;
+}
+
+section.Hero {
+    width: 100%;
+}
+.experienceCircle {
+    right: 13px;
+}
+
+.footerMiddle {
+    width: 86%;
+}
 }
