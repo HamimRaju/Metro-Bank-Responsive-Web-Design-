@@ -8,12 +8,10 @@
   .container {
     overflow: hidden;
   }
-  .logo {
-    margin-left: -14px;
-    padding-left: 18px;
-    padding-right: 7px;
-  }
-
+.topHeader {
+    font-size: 12px;
+    padding: 5px;
+}
   .lowerHeader .Login .login_box {
     padding: 6px 17px;
   }
@@ -156,7 +154,80 @@
   section#emi .container {
     height: 1350;
 }
+.lowerHeader .logo {
+    background: none;
+}
 
+.lowerHeader .logo .img {
+    filter: brightness(0);
+}
 
+.lowerHeader .logo img {
+  filter: brightness(0);
+  height: 41px;
+  width: 174px;
+  margin-left: -7px;
+}
+.menuButton i {
+    display: block;
+    font-size: 32px;
+    margin-right: 18px;
+    cursor: pointer;
+}
+.menuAndLogo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+ul.Login {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+.lowerHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+ul.Login {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -17px;
+}
+
+li.login_box {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+li.account_box {
+    width: 150px;
+    padding: 6px 17px;
+    display: flex;
+    justify-content: center;
+    height: 44px;
+}
+li.account_box a{
+  margin: auto;
+}
+.lowerHeader {
+    height: 150px;
+}
+
+li.account_box {
+    height: 47px;
+    width: 160px;
+}
+
+li.login_box {
+    width: 160px;
+}
 }
