@@ -11,6 +11,7 @@
 .topHeader {
     font-size: 12px;
     padding: 5px;
+    width:100%;
 }
   .lowerHeader .Login .login_box {
     padding: 6px 17px;
