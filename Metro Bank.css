@@ -76,6 +76,9 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+.menuAndLogo i {
+    display: none;
+}
 .lowerHeader .Home li a {
   color: black;
   text-decoration: none;
@@ -120,7 +123,6 @@ ul.Home li:first-child .SubMenu {
 }
 ul.Home li:nth-child(5) .SubMenu {
     width: 177px;
-    display: none;
 }
 .Home .SubMenu li{
   position: relative;
