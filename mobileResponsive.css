@@ -1,0 +1,344 @@
+@media (max-width: 460px) {
+  #BankServices .bankservice {
+    height: 1200px;
+  }
+  html {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid red;
+    background-color: cadetblue;
+    box-sizing: border-box;
+  }
+  .container {
+    width: 100%;
+  }
+.topHeader {
+    font-size: 12px;
+    padding: 5px;
+}
+  .lowerHeader .Login .login_box {
+    padding: 6px 17px;
+  }
+
+  .lowerHeader .Login .account_box {
+    padding: 8px 17px;
+  }
+
+  .lowerHeader .Login .account_box a {
+    font-size: 13px;
+  }
+
+  .Hero .container h1 {
+    font-size: 52px;
+  }
+
+  .appointment_button {
+    margin-left: 94px;
+  }
+
+  .bakckgroundImage {
+    display: none;
+  }
+  #allservices .container .fourService {
+    height: 1336px;
+  }
+  .pictureSection .rating {
+    width: 200px;
+    padding: 3px;
+  }
+
+  .pictureSection .circlePart {
+    height: 148px;
+    width: 153px;
+  }
+
+  .pictureSection .experienceCircle {
+    height: 224px;
+    width: 224px;
+    bottom: 33px;
+    right: -16px;
+  }
+
+  .pictureSection .circlePart h1 {
+    font-size: 49px;
+    margin-bottom: -14px;
+  }
+  #BankServices .bankservice {
+    height: 2500px;
+  }
+
+  .onlineBanking h1 {
+    font-size: 32px;
+    line-height: 1.3;
+  }
+  ul.Login {
+    display: none;
+  }
+
+  .logo img {
+    width: 103px;
+    height: 31px;
+  }
+
+  .logo {
+    width: 140px;
+  }
+  ul.Login {
+    display: none;
+  }
+
+  .logo img {
+    width: 103px;
+    height: 31px;
+  }
+
+  .logo {
+    width: 140px;
+  }
+
+  .appointment_button {
+    margin: auto;
+  }
+
+  .Hero .container h1 {
+    font-size: 48px;
+    text-align: center;
+  }
+
+  .Hero .container .highlight {
+    font-size: 68px;
+  }
+  #emi .emiCalculator {
+    height: 600px;
+  }
+  .image {
+    margin-top: 300px;
+  }
+  .review.two {
+    display: none;
+  }
+
+  .review.three {
+    display: none;
+  }
+  #reviews .userReview .review {
+    width: 85%;
+    margin-top: 100px;
+  }
+  .board.two {
+    display: none;
+  }
+
+  .board.three {
+    display: none;
+  }
+  section.Hero .container {
+    height: 700px;
+  }
+
+  .appointment_button {
+    height: 106px;
+    margin: auto;
+  }
+
+  .Hero .container h1 {
+    margin-top: 10px;
+  }
+
+  section#allservices {
+    margin-top: 100px;
+  }
+
+  section#allservices .container {
+    padding-top: 30px;
+  }
+  section#emi .container {
+    height: 1350;
+}
+.lowerHeader .logo {
+    background: none;
+}
+
+.lowerHeader .logo .img {
+    filter: brightness(0);
+}
+
+.lowerHeader .logo img {
+  filter: brightness(0);
+  height: 41px;
+  width: 174px;
+  margin-left: -7px;
+}
+.menuButton i {
+    display: block;
+    font-size: 32px;
+    margin-right: 18px;
+    cursor: pointer;
+}
+.menuAndLogo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+ul.Login {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lowerHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+ul.Login {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -17px;
+}
+
+li.login_box {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+li.account_box {
+    width: 150px;
+    padding: 6px 17px;
+    display: flex;
+    justify-content: center;
+    height: 44px;
+}
+li.account_box a{
+  margin: auto;
+}
+.lowerHeader {
+    height: 150px;
+}
+
+li.account_box {
+    height: 47px;
+    width: 160px;
+}
+
+li.login_box {
+    width: 160px;
+}
+.jolchap {
+    display: none;
+}
+
+
+.calculator {
+    width: 100%;
+}
+
+section#emi {
+    width: 100%;
+}
+
+section#emi .container {
+    width: 100%;
+}
+
+#emi .emiCalculator .image img {
+    width: 100%;
+}
+
+section#commercialBank {
+    width: 100%;
+}
+
+.commercialBackground {
+    width: 100%;
+}
+
+.commercialBackground .container {
+    width: 100%;
+}
+
+#commercialBank .container {
+    width: 100%;
+}
+
+section#apps .container {
+    width: 100%;
+}
+
+.imagePart {
+    width: 100%;
+}
+
+#apps .app .imagePart .image1 {
+    width: 100%;
+}
+
+#apps .app .imagePart .image2 {
+    width: 100%;
+}
+
+#apps .app .imagePart .image3 {
+    width: 61%;
+}
+
+#apps .app .imagePart .image4 {
+    width: 18%;
+}
+
+section#reviews .container {
+    width: 100%;
+}
+
+.downLoadapps {
+    display: flex;
+    flex-direction: column;
+}
+
+.redborder .container {
+    width: 100%;
+}
+
+.Subscribe {
+    display: flex;
+    flex-direction: column;
+}
+ul.leftMenu {
+    width: 100%;
+}
+
+ul.rightMenu {
+    width: 100%;
+}
+
+section.Hero .container h1 {
+    text-align: left;
+    font-size: 20px;
+}
+
+p.description {
+    width: 100%;
+}
+
+section.Hero .container {
+    width: 73%;
+}
+
+section.Hero {
+    width: 100%;
+}
+.experienceCircle {
+    right: 13px;
+}
+
+.footerMiddle {
+    width: 86%;
+}
+}
