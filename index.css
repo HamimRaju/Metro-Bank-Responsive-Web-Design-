@@ -1,0 +1,1311 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e5e5e5; 
+}
+.topHeader {
+  background-color: #212226;
+  color: white;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.leftMenu li a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.leftMenu {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+.leftMenu li a:hover {
+  color: red;
+}
+.topHeader ul {
+  list-style: none;
+}
+
+.rightMenu li a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.rightMenu li a i {
+  margin-right: 10px;
+  font-size: 22px;
+  color: red;
+}
+.rightMenu {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 500px;
+  justify-content: flex-end;
+  align-items: center;
+}
+.rightMenu li a:hover {
+  color: red;
+}
+
+.lowerHeader {
+  background-color: white;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.menuAndLogo i {
+    display: none;
+}
+.lowerHeader .Home li a {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.lowerHeader .Home li {
+  list-style: none;
+  margin-right: 50px;
+  font-size: 20px;
+}
+.Home {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  margin-left: 115px;
+  font-weight: 600;
+  position: relative;
+}
+.lowerHeader .Home li a:hover {
+  color: red; 
+}
+.Home .SubMenu{
+  position: absolute;
+  background-color: #ff0000;
+  font-weight: 100;
+  line-height: 2.5;
+  padding-top: 5px;
+  padding-bottom: 7px;
+  padding-left: 20px;
+  transform: scaleY(0);
+  transform-origin: top;
+  border-radius: 15px;
+  width: 242px;
+}
+ul.Home li:first-child .SubMenu {
+    width: 177px;
+}
+ul.Home li:nth-child(5) .SubMenu {
+    width: 177px;
+}
+.Home .SubMenu li{
+  position: relative;
+  width: 100%;
+}
+.Home .SubMenu li a{
+  color: oklch(97.998% 0.00532 16.096);
+}
+.Home .SubMenu li a:hover{
+  color: black;
+}
+.subMenu li:hover a{
+  padding-left: 15px;
+  transition: .5s;
+}
+
+.lowerHeader .Home li:hover ul.SubMenu{
+  transform: scaleY(1);
+  transition: .5s;
+}
+
+
+.subMenu2{
+  width: 220px;
+  position: absolute;
+  top: 12px;
+  left: 222px;
+  background-color: #15124e;
+  transform: scaleX(0);
+  transform-origin: left;
+  border-radius: 15px;
+
+}
+.SubMenu .subMenu2 li a{
+  color: white;
+  padding-left: 15px;
+}
+.SubMenu .subMenu2 li a:hover{
+  color: red;
+  padding-left: 25px;
+  transition: .5s;
+}
+.SubMenu li:hover ul.subMenu2{
+  transform: scaleX(1);
+  transition: .5s;
+} 
+
+
+.lowerHeader .Login li a {
+  color: black;
+  text-decoration: none;
+}
+.lowerHeader .Login li {
+  list-style: none;
+  font-size: 20px;
+}
+.Login {
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 26%;
+}
+
+.lowerHeader .Login .login_box {
+  border: 1px solid black;
+  padding: 10px 34px;
+}
+.lowerHeader .Login .login_box:hover {
+  background-color: red;
+  transition: .5s;
+}
+.lowerHeader .Login .account_box {
+  background-color: red;
+  padding: 12px 40px;
+  a {
+    color: white;
+  }
+}
+.lowerHeader .Login .account_box:hover {
+  background-color: black;
+  color: white;
+  transition: .5s;
+}
+.logo {
+  background-color: red;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: -2px;
+  padding-left: 20px;
+  padding-right: 37px;
+}
+
+.container {
+  width: 1300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.Hero {
+  height: 880px;
+  width: 100%;
+  background: linear-gradient(#00000047), url(Images/HeroBackground.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.Hero .container h1 {
+  color: white;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 80px;
+  margin-top: -40px;
+  margin-bottom: 20px;
+}
+.Hero .container .highlight {
+  font-size: 80px;
+  font-weight: 700;
+  color: red;
+}
+.Hero .container .description {
+  color: white;
+  line-height: 30px;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-bottom: 46px;
+}
+.Hero .appointment_button a {
+  text-decoration: none;
+  padding: 18px 35px;
+  background-color: red;
+  color: white;
+  margin-top: 30px;
+}
+.Hero .appointment_button a:hover {
+  background-color: black;
+  transition: .5s;
+}
+
+#allservices .container .fourService {
+  width: 100%;
+  height: 333px;
+  background-color: white;
+  margin-top: -39px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  box-shadow: -1px 12px 69px black;
+  position: relative;
+  border-radius: 20px;
+}
+#allservices .container .fourService .service {
+  height: 100%;
+  width: 25%;
+  z-index: 1;
+  position: relative;
+  padding: 35px;
+}
+.service .transitionPart1 {
+    height: 0px;
+    width:100%;
+    margin-bottom: 0px;
+    position: absolute;
+    top: 0px;
+    background: red;
+    left: 0px;
+    border-top-left-radius: 20px;border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;border-bottom-right-radius: 20px;
+    z-index: -1;
+}
+
+.service:hover .transitionPart1{
+    height: 100%;
+    transition:.5s;
+    z-index: -1;
+    
+}
+#allservices .container .fourService .service:hover .iconBox {
+    background: #00000073;
+}
+.fourService .service .iconBox i {
+  color: white;
+  font-size: 47px;
+}
+#allservices .container .service h1 {
+  margin-top: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  line-height: 31px;
+  font-size: 24px;
+}
+.service p {
+  color: #696969;
+}
+#allservices .container .service .iconBox {
+  display: flex;
+  background-color: red;
+  font-size: 60px;
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.service:hover .transitionPart{
+    height: 100%;
+    transition:.5s;
+}
+.about {
+  height: 645px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: white;
+  margin-top: 200px;
+}
+.pictureSection {
+  width: 45%;
+  height: 100%;
+  background: url(Images/about-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  position: relative;
+}
+.FinancialSection {
+  width: 45%;
+  height: 100%;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+#aboutus .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.writingPart h3 {
+  color: red;
+  margin-bottom: 13px;
+}
+.writingPart .about {
+  margin-bottom: 20px;
+}
+.writingPart h1 {
+  margin-bottom: 13px;
+  line-height: 1.2;
+  font-size: 50px;
+  margin-top: 24px;
+}
+
+.writingPart p {
+  color: #696969;
+}
+
+i.bx.bx-dollar-circle {
+  height: 80px;
+  width: 80px;
+  font-size: 50px;
+  background: #eb292c26;
+  border-radius: 100%;
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo1 i.bx.bx-check-circle {
+  height: 80px;
+  width: 80px;
+  font-size: 50px;
+  background: #eb292c26;
+  border-radius: 100%;
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logos p {
+  color: #696969;
+}
+.logoPart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logoPart .text {
+  flex: 3;
+}
+.logoPart .logo1 {
+  flex: 1;
+}
+.about .DiscoverMoreButton a {
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  padding: 18px 35px;
+}
+.about .DiscoverMoreButton a:hover {
+  background-color: black;
+  transition: .5s;
+}
+.about .logos {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.about .logos .logoPart:first-child {
+  margin-bottom: 30px;
+}
+.pictureSection .rating {
+  background-color: #e1e1e1;
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 78px;
+  left: -1px;
+}
+.pictureSection .circlePart {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  border-radius: 100%;
+  color: white;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  bottom: 118px;
+  right: -100px;
+}
+.pictureSection .circlePart h1 {
+  font-size: 70px;
+  margin-bottom: -27px;
+}
+.pictureSection .circlePart h3 {
+  font-size: 15px;
+  line-height: 22px;
+}
+.pictureSection .experienceCircle {
+  height: 300px;
+  width: 300px;
+  border: 20px solid #ffffff6b;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 60px;
+  right: -145px;
+}
+
+.onlineBanking {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 250px;
+  position: relative;
+}
+.onlineBanking h3 {
+  color: red;
+}
+.onlineBanking h1 {
+  font-size: 45px;
+  line-height: 1.3;
+}
+
+
+#BankServices .bankservice {
+  width: 100%;
+  height: 600px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.bakckgroundImage {
+  position: absolute;
+  opacity: 0.1;
+  top: -70px;
+  margin-left: 14px;
+  z-index: -2;
+}
+#BankServices .bankservice .serviceBox {
+  height: 271px;
+  width: 300px;
+  background-color: white;
+  padding: 23px;
+  margin-top: 20px;
+  float: left;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 1px -2px 7px 0px black;
+  z-index: 3;
+}
+#BankServices .bankservice .serviceBox .transitionPart2 {
+    height: 0%;
+    width:100%;
+    position: absolute;
+    top: 0px;
+    background: red;
+    left: 0px;
+    border-top-left-radius: 10px;border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;border-bottom-right-radius: 10px;
+    z-index: -1;
+}
+#BankServices .bankservice .serviceBox:hover .transitionPart2{
+    height: 100%;
+    transition:.5s;
+    z-index: -1;
+    
+}
+#BankServices .bankservice .serviceBox *{
+  z-index: 4;
+}
+#BankServices .bankservice .serviceBox i {
+  font-size: 30px;
+  color: white;
+}
+#BankServices .bankservice .serviceBox h3 {
+  margin: 10px;
+  margin-top: 20px;
+  line-height: 25px;
+  font-size: 21px;
+}
+#BankServices .bankservice .serviceBox li {
+  margin-left: 25px;
+  line-height: 1.5;
+  color: #696969;
+  font-size: 16px;
+}
+#BankServices .bankservice .iconBox {
+  background-color: red;
+  height: 55px;
+  width: 55px;
+  border-radius: 100%;
+  text-align: center;
+  display: flex;flex-direction: row;align-items: center;justify-content: center;
+}
+#BankServices .bankservice .serviceBox:hover .iconBox{
+  background-color: #00000073;
+}
+#emi .emiCalculator {
+  background-color: #f6f6f6;
+  width: 100%;
+  height: 719px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  box-shadow: 1px 23px 65px 8px black;
+  position: relative;
+}
+#emi .emiCalculator .jolchap {
+  position: absolute;
+  position: absolute;
+  left: -90px;
+  top: -90px;
+  z-index: -1;
+}
+#emi .emiCalculator .calculator {
+  height: 100%;
+  width: 100%;
+  flex: 1;
+  padding: 80px 80px 50px;
+}
+#emi .emiCalculator .calculator h4 {
+  color: red;
+  font-size: 18px;
+}
+
+#emi .emiCalculator .calculator h1 {
+  font-size: 40px;
+}
+#emi .emiCalculator .image {
+  height: 100%;
+  width: 100%;
+  flex: 1;
+}
+#emi .inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="number"] {
+  padding: 20px;
+  margin-top: 36px;
+  border: 1px solid #00000017;
+  font-size: 15px;
+}
+#emi .buttons {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#emi button {
+  text-decoration: none;
+  margin-right: 45px;
+  margin-top: 18px;
+  font-size: 20px;
+}
+#emi .buttons button:first-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  padding: 15px;
+  background-color: #eb292c;
+  color: white;
+  border: none;
+}
+#emi .buttons button:first-child:hover {
+  background-color: black;
+}
+#emi .buttons button:last-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  padding: 15px;
+  background-color: white;
+  color: red;
+  border: 1px solid red;
+}
+#emi .buttons button:last-child:hover {
+  background-color: #eb292c;
+  color: white;
+}
+
+#commercialBank .commercialBackground img{
+  height: 700px;
+  width: 100%;
+  margin-top: 150px;
+  text-align: center;
+  color: white;
+  line-height: 1.4;
+  font-size: 20px;
+  background-repeat: no-repeat;
+  border-radius: 33px;
+  opacity: .9;
+}
+#commercialBank .container {
+  position: relative;
+}
+#commercialBank .container .heading {
+  position: absolute;
+  color: white;
+  top: -500px;
+  left: 400;
+  line-height: 1.3;
+  font-size: 21px;
+  text-align: center;
+  & h1{
+    color:rgb(255 41 41);
+    font-size: 45px;
+  }
+}
+#commercialBank .bankInfo {
+  height: 240px;
+  width: 100%;
+  margin-top: -130px;
+  display: flex;
+}
+#commercialBank .bankInfo .part {
+  display: flex;
+  height: 100%;
+  flex: 1;
+}
+.client {
+  background-color: white;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;    
+}
+.transaction {
+  background-color: rgb(10, 15, 32);
+}
+.branch {
+  background-color: rgb(235, 42, 45);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+#commercialBank .bankInfo .part .icon {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#commercialBank .bankInfo .part .icon i {
+  color: red;
+  background-color: rgb(254, 234, 234);
+  height: 90px;
+  width: 90px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+#commercialBank .bankInfo .part .text {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: -40px;
+}
+.clt h1 {
+  font-size: 40px;
+  margin-left: 30px;
+}
+.clt h2 {
+  color: rgb(103, 103, 103);
+  margin-top: -12px;
+}
+.transc h1 {
+  font-size: 40px;
+  color: white;
+  margin-left: 30px;
+}
+.transc h2 {
+  color: white;
+  margin-top: -12px;
+}
+.brnch h1 {
+  font-size: 40px;
+  color: white;
+  margin-left: 35px;
+}
+.brnch h2 {
+  color: white;
+  margin-top: -12px;
+}
+
+#apps .app {
+  width: 100%;
+  height: 759px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  margin-top: 300px;
+  background-color: white;
+  border-radius: 25px;
+}
+#apps .app .imagePart {
+  height: 100%;
+  flex: 1;
+}
+#apps .app .imagePart .image1 {
+  position: absolute;
+  top: 118px;
+  left: -109px;
+  z-index: -1;
+}
+.image2 {
+  position: absolute;
+  z-index: 1;
+  border-top-left-radius: 25px;border-bottom-left-radius: 25px;
+}
+.image3 {
+  position: absolute;
+  z-index: 2;
+  top: 70px;
+  left: 107px;
+}
+.image4 {
+  position: absolute;
+  z-index: 3;
+  bottom: 90px;
+  left: 314px;
+}
+
+#apps .app .textPart {
+  height: 100%;
+  max-width: 50%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.appDescription h3 {
+  color: red;
+  margin-bottom: 15px;
+}
+.appDescription h1 {
+  line-height: 1.1;
+  font-size: 43px;
+  margin-bottom: 15px;
+}
+.appDescription p {
+  color: rgb(108, 108, 108);
+  margin-bottom: 15px;
+}
+.downLoadapps {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#apps .app .textPart .appslogo {
+  width: 240px;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3px;
+}
+#apps .app .textPart .appslogo .androidIcon {
+  height: 100%;
+  flex: 1.5;
+}
+.androidIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iosIcon {
+  height: 100%;
+  max-width: 50%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+#apps .app .textPart .appslogo .androidIcon img {
+  size: 30px;
+}
+#apps .app .textPart .appslogo .text {
+  height: 100%;
+  flex: 2.5;
+  display: flex;
+  flex-direction: column;
+  margin-right: 14px;
+}
+.androidIcon img {
+  height: 50px;
+  width: 50px;
+}
+.iosIcon img {
+  height: 50px;
+  width: 50px;
+}
+.downLoadapps a {
+  text-decoration: none;
+  background-color: black;
+  height: 72px;
+}
+.downLoadapps a:hover {
+  background-color: red;
+}
+.android .text h3 {
+  color: white;
+  font-size: 11px;
+  margin-top: 11px;
+}
+.android .text h1 {
+  color: white;
+  font-size: 24px;
+  margin-top: -8px;
+}
+.ios .text h3 {
+  color: white;
+  font-size: 11px;
+  margin-top: 11px;
+}
+.ios .text h1 {
+  color: white;
+  font-size: 24px;
+  margin-top: -8px;
+}
+#reviews {
+  background: linear-gradient(#ffffffe3, #ffffffdb), url(Images/testimonial-bg.jpg);
+  height: 750px;
+  margin-top: 125px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#reviews .testimonials {
+  height: 140px;
+  width: 100%;
+  margin-top: 90px;
+}
+.testimonials h3 {
+  font-size: 20px;
+  font-weight: normal;
+  color: red;
+}
+.testimonials h1 {
+  font-size: 50px;
+}
+.review p {
+  color: #696969;
+  margin-top: 15px;
+}
+#reviews .userReview {
+  height: 340px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 90px;
+}
+#reviews .userReview .review {
+  height: 100%;
+  width: 30%;
+  background-color: #e4e7f299;
+  text-align: center;
+  padding: 20px;
+  padding-top: 80px;
+  position: relative;
+  box-shadow: inset 0px 0px 7px 0px black;
+  border-radius: 15px;
+}
+.userReview .review img {
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.review i {
+    color: tomato;
+}
+
+#news .mediaUpdate {
+    height: 1120px;
+    width: 100%;
+    margin-top: 30px;
+}
+.mediaUpdate h3 {
+  margin-top: 100px;
+  font-size: 20px;
+  font-weight: normal;
+  color: red;
+}
+.mediaUpdate h1 {
+  font-size: 50px;
+}
+.mediaPictures{
+  margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.mediaPictures .board{
+    width: 32%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 33px;
+    background:linear-gradient(360deg, #000000de, #00000000);
+    position: relative;
+    border-radius: 20px;
+}
+.board .date{
+  background-color: white;
+  height: 40px;
+  width: 186px;
+  border-radius: 30px;
+  margin-top: 20px;
+  padding: 10px 15px 10px 14px;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+.date i{
+  color: red;
+}
+.board .text{
+  display: flex;
+}
+.board .text a{
+  text-decoration: none;
+  color: white;
+}
+.board .text a h2{
+  color: white;
+  line-height: 1.3;
+  margin-top: 16px;
+}
+.board .text a h2:hover{
+  color: red;
+  text-decoration: underline;
+}
+.board img{
+  height: 426px;
+  width: 350px;
+}
+#news .adminComment {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 22px;
+}
+.adminComment .adminPart{
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.adminComment .commentPart{
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.adminComment .Icon{
+  height: 90%;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 23px;
+  margin-left: -47px;
+}
+.Icon i{
+  color: red;
+}
+.adminComment .Text{
+  height: 90%;
+  flex: 1.8;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 15px;
+  color: white;
+}
+.adminPart a:hover{
+  color: red;
+}
+.ReadMoreButton a {
+  text-decoration: none;
+  color: red;
+  background-color: white;
+  padding: 18px 35px;
+}
+.ReadMoreButton a:hover {
+  background-color: red;
+  color: white;
+  transition: .5s;
+}
+.transitionPart {
+    height: 0px;
+    width:100%;
+    margin-bottom: 0px;
+    position: absolute;
+    bottom: 0px;
+    background: rgba(0, 0, 0, 0.636);
+    left:0px;
+    z-index: -1;
+    border-radius: 20px;
+}
+
+.board:hover .transitionPart{
+    height: 100%;
+    transition:.5s;
+}
+
+#subscribe .redborder{
+  width: 100%;
+  height: 220px;
+  background-color: rgb(235,42,45);
+}
+.redborder .container{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.redborder .headline{
+  height: 100%;
+  flex: 1;
+  font-size: 39px;
+  color: white;
+  line-height: 1.3;
+  font-weight: 800;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.Subscribe{
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.Subscribe input[type="email"] {
+    padding: 20px 10px 20px 20px;
+    background: none;
+    border: none;
+    font-size: 15px;
+    color: white;
+    height: 100%;
+}
+.Subscribe input::placeholder{
+  color: rgb(254,233,232);
+}
+.Subscribe .email {
+    width: 428px;
+    height: 58px;
+    background: rgb(240,80,79);
+}
+.SubscribeButton a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 20px 38px;
+  margin-left: 38px;
+  transition: .5s;
+}
+.SubscribeButton a:hover {
+  background-color: white;
+  color: black;
+}
+
+#Footer{
+  background-color: rgb(10,15,32);
+  width: 100%;
+  height: 376px;
+}
+#Footer .container{
+  height: 100%;
+  display: flex;flex-direction: row;justify-content:space-evenly;align-items: center;
+}
+.footerSection{
+  display: flex;flex-direction: row;justify-content:space-evenly;align-items: center;
+}
+.footerLeft{
+  height: 100%;
+  width: 30%;
+  padding: 15px;
+}
+.footerLeft p{
+color: white;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.footerLeft .socials{
+  display: flex;flex-direction: row;justify-content:flex-start;align-items: center;
+}
+.footerLeft .iconbox{
+  height: 50px;
+  width: 50px;
+  color: white;
+  font-size: 22px;
+  background-color: rgb(42,41,41);
+  border-radius: 100%;
+  display: flex;flex-direction: row;justify-content:center;align-items: center;
+  margin-right: 10px;
+}
+.socials a {
+    text-decoration: none;
+}
+.footerLeft .socials .iconbox:hover{
+  background-color: red;
+}
+.footerMiddle{
+  height: 100%;
+  display: flex;flex-direction: row;justify-content: space-between;align-items: center;
+  width: 30%;
+  padding: 15px;
+}
+.middleLeft h3 ,.middleRight h3{
+  color: white;
+  margin-bottom: 19px;
+  font-size: 20px;
+  margin-left: -12px;
+}
+.middleLeft ul a , .middleRight ul a{
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 2.3;
+}
+.middleLeft ul a:hover , .middleRight ul a:hover{
+  color: red;
+}
+.footerRight{
+  height: 100%;
+  width: 30%;
+  padding: 15px;
+}
+.footerRight h3{
+  color: white;
+  margin-bottom: 30px;
+  margin-top: 9px;
+}
+.branches select ,input{
+  height: 50px;
+  width: 100%;
+  padding: 5px 15px;
+  background-color: transparent;
+  color: #696969;
+  font-size: 16px;
+  margin-bottom: 25px;
+  border: .5px solid #696969;
+}
+
+.findbutton a {
+  color: white;
+  background-color: rgb(235,42,45);
+  border: none;
+  text-decoration: none;
+  padding: 16px 29px;
+  transition: .5s;
+}
+.findbutton a:hover{
+  background-color: white;
+  color: red;
+}
+#copyRights{
+  background-color: rgb(10,15,32);
+  width: 100%;
+  height: 90px;
+  border-top: 1px solid #FFFFFF1A;
+  
+}
+#copyRights .container{
+  width: 100%;
+  height: 100%;
+  display: flex;flex-direction: row;justify-content: center;align-items: center;
+}
+#copyRights .highlight{
+  color: red;
+  text-decoration: none;
+}
+#copyRights p{
+  color: white;
+  font-size: 18px;
+}
